@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <!--Simple Parallex Library, External Source: https://simpleparallax.com/-->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    
+    <!-- META tags help search engines identify your page -->
+    <meta charset="utf-8" > <!-- character encoding for the page -->
+    <meta name="author" content="Happy Day Dessert Factory">
+    <meta name="keywords" content="Happy Day Dessert Factory, dessert, ice cream">
+    <meta name="description" content="Happy Day Dessert Factory Website">
+
+    <!-- The title will appear in the menu bar of the browser -->
+    <title>About | Happy Day Dessert Factory</title>
+    
+
+</head>
+<body>
+    <header>
+        <nav> <!-- nav tag is used to organize navigation items -->
+            <a href="about.html">ABOUT</a>
+            <a href="menu.html">MENU</a>
+            <a class="selected" href="index.html">
+                <div class="card">
+                    <img src="images/logo-pink.png" alt="pink logo">
+                    <img src="images/logo-blue.png" class="img-top" alt="blue logo">
+                </div></a>
+            <a href="https://www.grubhub.com/restaurant/happy-day-dessert-factory-906a-western-avenue-pittsburgh/3083036" target="_blank">ORDER</a>
+            <a href="contact.html">CONTACT</a>
+            <!-- These links take us to another page within the website-->
+        </nav>
+    </header>
+
+    <div id = "video">
+        <div id="video-section">
+            <h2>As Featured in the News</h2>
+            <h1>Pittsburgh Eats: Happy Day Dessert Factory</h1>
+            <br>
+            <iframe src="https://www.youtube.com/embed/F3__YFGOyZ4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div> <!-- close flavor-->
+
+    
+    <div id="about-store">
+        <h3>Happy Day Dessert Factory is a new and exciting brand.
+            <br><br> 12+ years of experience in the frozen dessert industry have been used to place a fresh twist on a familiar treat.                
+        </h3>
+        <div id="store-text">
+        <p>Happy Day Dessert Factory serves Premium Homemade Hard Ice Cream as its signature product.</p>
+        <p>
+            Some of our other products include:
+            <ul>
+                <li>Water Ice</li>
+                <li>Frozen Soft Custard</li>
+                <li>Stackers (frozen custard layered with water ice)</li>
+                <li>Ice Shakes (blended mix of water ice and custard)</li>
+                <li>Twisters (blended mix of water ice, premium hard ice cream or custard, and cookie pieces)</li>
+                <li>Milkshakes</li>
+                <li>Sundaes</li>
+                <li>Fresh Baked Cookies</li>
+                <li>Ice Cream Sandwiches</li>
+                <li>Ice Cream Cakes</li>
+                <li>Frozen Pies</li>
+                <li>Waffle Cones</li>
+                <li>Bottled Water</li>
+            </ul>
+        </div>
+    </div>
+            
+
+    
+    <div id = "photos">
+        <table>
+            <tr id="parallax">
+                <td>
+                <!--Image source: https://www.post-gazette.com/life/food/2022/07/19/happy-day-dessert-factory-north-side/stories/202207010105-->
+                <img class="thumbnail" src="images/pitt-post-gazette.jpg" alt="happy day dessert factroy ice cream">
+                <script>
+                    var image = document.getElementsByClassName('thumbnail'); new simpleParallax(image, {
+                        scale:1.5
+                    });
+                </script>
+                <p>Photo Courtesy of The Pittsburgh Post-Gazette</p>
+            </td>
+            </tr>
+        </table>
+        <table>
+            <tr id="photo-row">
+                <td>
+                    <img src="images/aesthetic-strawberry.jpg" alt="ice cream in front of store">
+                </td>
+                <td>
+                    <img src="images/about-people-store.jpg" alt="people in front of store">
+                </td>
+                <td>
+                    <img src="images/storefront-cookie.jpg" alt="storefront in the evening">
+                </td>
+                <td>
+                    <img src="images/worker-in-action.jpg" alt="worker in action">
+                </td>
+                <td>
+                    <img src="images/aesthetic-storefront.jpg" alt="storefront in the evening">
+                </td>
+            </tr>
+        </table>
+        <p>Photos Courtesy of Happy Day Dessert Factory</p>
+    </div>
+     <!-- close flavor-->
+
+    <div>
+    </div>
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <p><strong>Address</strong><br>
+                        906A Western Ave.
+                        <br>Pittsburgh, PA 15233
+                    </p>   
+                </td>
+                <td>
+                    <p><strong>Contact Information</strong><br>
+                        info@happydaydessertfactory.com
+                        <br>Tel: 412 872-0117
+                    </p>            
+                </td>
+                <td>
+                    <p><strong>Hours</strong><br>
+                        Take out and dine in available
+                        <br>12PM - 8PM
+                    </p>            
+                </td>
+                <td id="socials">
+                    <a href="mailto:info@happydaydessertfactory.com" target="_blank"><img src="images/email.png" alt="mail Icon"></a>
+                    <a href="https://www.facebook.com/happydaydessertfactory/" target="_blank"><img src="images/facebook.png" alt="facebook Icon"></a>
+                    <a href="https://www.instagram.com/happydaydessertfactory/?hl=en" target="_blank"><img src="images/instagram.png" alt="instagram Icon" ></a>
+                    <a href="https://www.youtube.com/watch?v=F3__YFGOyZ4" target="_blank"><img src="images/youtube.png" alt="youtube Icon"></a>
+                    <a href="https://www.yelp.com/biz/happy-day-dessert-factory-pittsburgh" target="_blank"><img src="images/yelp.png" alt="yelp Icon" ></a>
+                    <a href="https://www.grubhub.com/restaurant/happy-day-dessert-factory-906a-western-avenue-pittsburgh/3083036 " target="_blank"><img src="images/grubhub.png" alt="grubhub Icon" ></a>            
+                </td>
+            </tr>
+        </table>
+        <p>
+            &copy; 2023 Happy Day Dessert Factory    
+        </p>
+    </footer>
+</body>
+</html>
