@@ -1,0 +1,573 @@
+
+/******************************/
+/********GENERAL STYLES********/
+/******************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Raleway&display=swap');
+
+body {
+    font-family: "Raleway", Helvetica, Arial, Sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+    color:#000000;
+    background-color: #FFFFFF;
+}
+
+p {
+    font-family: "Raleway", Helvetica, Arial, Sans-serif;
+    font-size: 14px;
+    text-align:left;
+    padding-left: 0px;
+}
+h1 {
+    font-family: "Playfair Display", Helvetica, Arial, Sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Playfair Display", Helvetica, Arial, Sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+h3 {
+    font-family: "Playfair Display", Helvetica, Arial, Sans-serif;
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+}
+a {
+    font-family: "Playfair Display", Helvetica, Arial, Sans-serif;
+    color: black;
+    text-decoration: underline;
+    text-align:left;
+    font-weight: normal;
+}
+a:hover {
+    font-family: "Playfair Display", Helvetica, Arial, Sans-serif;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+footer {
+    clear: both;
+    margin: 0;
+    padding: .5em;
+    color: #333333;
+    font-size: 1em;
+    text-align: left;
+    border-top: 1px dotted #cccccc;
+}
+footer td {
+    text-align:left; 
+    vertical-align:top; 
+    padding-top:10px;
+}
+#socials {
+    text-align:right; 
+    vertical-align:top; 
+    padding-top:20px;
+}
+footer img {
+    width:25px;
+    height:25px;
+    padding:0px;
+}
+footer a{
+    padding:2px;
+}
+
+footer p {
+    color: black;
+}
+table {
+    width: 100%;
+    border: 0px;
+    border-spacing: 20px;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+td {
+    font-family: "Raleway", Helvetica, Arial, Sans-serif;
+    font-size: 14px;
+    padding: 2px;
+    text-align: center;
+    border-width: 0px;
+    border-style: solid;
+    color: black;
+}
+
+fieldset {
+    font-family: "Raleway", Helvetica, Arial, Sans-serif;
+    font-size: 14px;
+}
+
+.button {
+    width:150px;
+    height:50px;
+    border:0px;
+    background-color:#f99997;
+    text-align:left;
+    padding-top:10px;
+    padding-left: 0px;
+    font-size:100%;
+}
+.button a{
+    text-align:center;
+    font-family: 'Playfair Display', Helvetica, Arial, Sans-serif;
+    font-size: 16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color: white;
+}
+
+/******************************/
+/********NAVIGATION********/
+/******************************/
+
+nav {
+    text-align: center;
+    width: 100%;
+    margin: 25px auto;
+}
+
+nav img {
+    width: 100px;
+    height:100px;
+}
+nav a {
+    font-family: "Playfair Display", Helvetica, Arial, Sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #f99997;
+}
+
+nav a:hover {
+    font-size: 2em;
+    font-weight: bold;
+    color: #60b2f6;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
+}
+
+/******************************/
+/********HOME********/
+/******************************/
+
+#flavor {
+    background-color: #7c746d;
+    color: #FFFFFF;
+}
+
+#flavor-of-month {
+    padding: 60px;
+    width: 80%;
+    margin: auto;
+    background-color: #7c746d;
+    color: #FFFFFF;
+}
+
+#flavor-of-month td, h1, h2,p {
+    text-align: left;
+    color: white;
+}
+
+#flavor-of-month h2 {
+    text-align: left;
+}
+
+
+#flavor-of-month p {
+    color: white;
+    padding-left: 0px;
+}
+
+#flavor img {
+    margin: 20% auto;
+    width: 100%;
+    height:100%;
+}
+
+#flavor body {
+    margin: 40px auto;
+}
+
+#s2 {
+    background-color: #fffbf2;
+    padding: 40px;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    padding: 60px;
+}
+
+#container img {
+    width:100%;
+    height:100%;
+}
+
+#container h3, p, a {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+#container p {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+#promotion1 {
+    width: 40%;
+    text-align: left;
+    background-color: #f7cacc;
+    padding-bottom: 5%;
+}
+
+#promotion2 {
+    width: 40%;
+    float: right;
+    text-align: left;
+    background-color: #f7cacc;
+    padding-bottom:5%;
+}
+
+#promotion1 body, h3, a{
+    padding:20px;
+}
+
+#promotion2 body, h3, a{
+    padding:20px;
+}
+
+#newsletter {
+    background-color :#60b2f6
+}
+
+#newsletter h1 {
+    padding-right:120px;
+    padding-left: 0px;
+    color:white;
+}
+
+#newsletter h2 {
+    text-align: left;
+    padding-right:120px;
+    padding-left: 0px;
+    color:white;
+}
+
+#newsletter  p {
+    text-align: left;
+    padding-right:120px;
+    padding-left: 0px;
+    color:white;
+}
+
+
+#newsletter-left {
+    width:40%;
+    padding-right: 80px; 
+}
+
+#newsletter-left img {
+    width:100%;
+    height: 100%; 
+}
+
+
+
+/******************************/
+/********CONTACT********/
+/******************************/
+
+#contact-blue {
+    background-color: #60b2fb;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    clear: both;
+    color:white;
+}
+
+#contact-blue h1{
+    text-align:center;
+}
+
+#map {
+    width: 80%;
+    text-align: center;
+    padding-right:40px;
+    float:right;
+    height:600px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width:100%;
+    height:100%;
+    border:0;
+}
+
+#contact-info{
+    width: 100%;
+    text-align: left;
+    color:white;
+}
+
+#contact-info table {
+    width: 80%;
+    border-spacing: 20px;
+    table-layout: auto;
+}
+
+#contact-blue td, h3, p {
+    text-align: left;
+    padding: 0px;
+    color:white;
+}
+
+
+#contact-blue p {
+    text-align: left;
+    padding: 0px;
+    color:white;
+}
+
+
+#contact-blue a {
+    text-align: left;
+    padding: 0px;
+    color:white;
+}
+
+
+#contact-blue a:hover {
+    text-align: left;
+    padding: 0px;
+    color:white;
+    font-weight:normal;
+}
+
+#contact-beige {
+    background-color: #fffbf2;
+    margin: auto;
+    padding: 80px;
+}
+
+
+#contact-beige h1 {
+    text-align:center;
+    color: black;
+}
+
+#newsletter-form {
+    background-color: #f7cacc;
+    width: 60%;
+    margin:auto;
+}
+
+#submit-button{
+    height:38.6px;
+    width: 97px;
+}
+
+/******************************/
+/********MENU********/
+/******************************/
+
+#promotion-banner {
+    background-color:#60b2f6;
+    height:100%;
+    width:100% ;
+}
+#promotion-banner h1, h2{
+    padding-right:0px;
+}
+#promotion-banner p{
+    color:white;
+}
+
+
+#promotion-banner tr {
+    border-bottom:1px solid #7c746d;
+}
+
+#promotion-banner td {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+#menu-container h1{
+    text-align: center;
+    color: black;
+    margin:auto;
+}
+
+
+#accordion {
+    border-color:#7c746d;
+    border-width: 4px;
+    width: 90%;
+    margin:auto;
+}
+
+#accordion h3, p {
+    color: black;
+}
+
+#accordion td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+#accordion img {
+    width: 200px;
+    height: 200px;
+}
+
+.description {
+    width: 50%;
+}
+/******************************/
+/********FLICKITY********/
+/******************************/
+
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #fffbf2;
+  padding-top: 100px;
+}
+
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.carousel img {
+    height: 300px;
+    width: 300px;
+}
+
+
+
+/******************************/
+/********ABOUT********/
+/******************************/
+
+
+#video {
+    background-color: #7c746d;
+    color: #FFFFFF;
+    height: 600px;
+}
+
+
+#video-section{
+    height: 80%;
+}
+
+#video-section h1, h2 {
+    text-align:center;
+}
+
+#video-section iframe {
+    height:100% auto;
+    width: 100%;
+}
+
+#store-text {
+    padding-bottom: 30px;
+    margin:auto;
+}
+
+ul {
+    font-family: 'Raleway', 'Helvetica', 'Arial';
+
+}
+
+#photos img{
+    width: 100%;
+    height: 20%;
+}
+
+#photo-row img{
+    height: 300px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 500px;
+}
+
+#video-section {
+    width: 60%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#photos {
+    background-color:#f7cacc;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+#about-store {
+    background-color: #fffbf2;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#about-store h3 {
+    padding-top: 5%;
+    color: black;
+    text-align:left;
+}
